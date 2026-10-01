@@ -1,0 +1,110 @@
+{
+  "acm": {
+    "color": "#ffd43b",
+    "name": "ACM",
+    "notes": "5 reels carried from Sep (confirmed 2026-09-22; it was recorded backwards earlier).",
+    "order": 3,
+    "reelsDone": 0,
+    "reelsTarget": 5,
+    "status": "active"
+  },
+  "aesthetic-atelier": {
+    "color": "#ff6b6b",
+    "name": "Aesthetic Atelier",
+    "notes": "10 reels carried from Sep.",
+    "order": 0,
+    "reelsDone": 0,
+    "reelsTarget": 10,
+    "status": "active"
+  },
+  "aki-al-karam": {
+    "color": "#748ffc",
+    "name": "AKI / Al-Karam International",
+    "notes": "No target set. Unresolved: a relayed request said AKI and Sunlight Pakistan are 'one client per Taha'. Not acted on; kept separate. Confirm with Taha before any merge.",
+    "order": 11,
+    "reelsDone": 0,
+    "reelsTarget": 0,
+    "status": "confirm"
+  },
+  "aroma-curls": {
+    "color": "#f783ac",
+    "name": "Aroma Curls",
+    "notes": "5 reels carried from Sep. Revision note: TikTok and YouTube posting continues from today.",
+    "order": 4,
+    "reelsDone": 0,
+    "reelsTarget": 5,
+    "status": "active"
+  },
+  "bilal-hospital": {
+    "color": "#e599f7",
+    "name": "Bilal Hospital",
+    "notes": "No target set. 9-video doctor series; 3 were left at the end of Sep. Check whether it is still open.",
+    "order": 9,
+    "reelsDone": 0,
+    "reelsTarget": 0,
+    "status": "confirm"
+  },
+  "dr-saiqa-aesthetics": {
+    "color": "#b197fc",
+    "name": "Dr. Saiqa's Aesthetics & Beauty Lounge",
+    "notes": "10 reels carried from Sep. 6-month contract, onboarded 2026-09-15.",
+    "order": 2,
+    "reelsDone": 0,
+    "reelsTarget": 10,
+    "status": "new"
+  },
+  "e-karobar": {
+    "color": "#a9e34b",
+    "name": "e karobar",
+    "notes": "3 reels, confirmed by Taha 2026-09-24 (same as Sep).",
+    "order": 8,
+    "reelsDone": 0,
+    "reelsTarget": 3,
+    "status": "active"
+  },
+  "eiqaan": {
+    "color": "#ffa94d",
+    "name": "Eiqaan",
+    "notes": "4 reels carried from Sep. Platforms are Twitter (X) and LinkedIn, not IG/FB.",
+    "order": 6,
+    "reelsDone": 0,
+    "reelsTarget": 4,
+    "status": "active"
+  },
+  "kohsar-electronics": {
+    "color": "#4dabf7",
+    "name": "Kohsar Electronics",
+    "notes": "Working to 4 reels, but the target is undefined: the signed proposal (PKR 270,000 / 3 months) lists no quantities. A real target needs to be set with the client.",
+    "order": 7,
+    "reelsDone": 0,
+    "reelsTarget": 4,
+    "status": "confirm"
+  },
+  "little-explorers": {
+    "color": "#66d9e8",
+    "name": "Little Explorers",
+    "notes": "10 reels carried from Sep.",
+    "order": 1,
+    "reelsDone": 0,
+    "reelsTarget": 10,
+    "status": "active"
+  },
+  "minicabees": {
+    "color": "#38d9a9",
+    "name": "Minicabees",
+    "notes": "No target set, though reel output has started (2 reels logged Sep 24). Confirm a real target. Revision note: ads are running on Google.",
+    "order": 10,
+    "reelsDone": 0,
+    "reelsTarget": 0,
+    "status": "confirm"
+  },
+  "punjab-auto-store": {
+    "color": "#51cf66",
+    "name": "Punjab Auto Store",
+    "notes": "4 reels carried from Sep.",
+    "order": 5,
+    "reelsDone": 0,
+    "reelsTarget": 4,
+    "status": "active"
+  }
+}
