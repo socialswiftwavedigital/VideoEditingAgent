@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EditDesk Agent</title>
+  <meta name="description" content="Video editor ka client & delivery dashboard — security code se locked.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Lock screen -->
+  <section id="lock" class="lock">
+    <div class="lock-card">
+      <div class="brand big"><span class="logo">🎬</span> EditDesk <em>Agent</em></div>
+      <p id="lock-sub" class="muted">Apna security code darj karein</p>
+      <form id="lock-form" autocomplete="off">
+        <input id="lock-code" type="password" inputmode="numeric" placeholder="Security code" aria-label="Security code" autofocus>
+        <input id="lock-code2" type="password" inputmode="numeric" placeholder="Code dobara likhein" aria-label="Confirm code" hidden>
+        <button class="btn primary block" type="submit" id="lock-btn">Unlock</button>
+      </form>
+      <p id="lock-msg" class="lock-msg" role="alert"></p>
+      <p class="tiny muted">🔒 Data aap ke device par AES-256 se encrypted hai. Code bhool gaye to data recover nahi ho sakta.</p>
+      <button class="link tiny" id="lock-reset" type="button" hidden>Code bhool gaye? Sab kuch reset karein</button>
+    </div>
+  </section>
+
+  <!-- App -->
+  <div id="app" class="app" hidden>
+    <aside class="sidebar">
+      <div class="brand"><span class="logo">🎬</span> EditDesk <em>Agent</em></div>
+      <nav id="nav">
+        <button data-view="dashboard" class="active"><span>📊</span>Dashboard</button>
+        <button data-view="videos"><span>🎞️</span>Videos</button>
+        <button data-view="clients"><span>👥</span>Clients</button>
+        <button data-view="planner"><span>🗓️</span>Planner</button>
+        <button data-view="agent"><span>🤖</span>Agent</button>
+        <button data-view="settings"><span>⚙️</span>Settings</button>
+      </nav>
+      <div class="sidebar-foot">
+        <span id="save-state" class="tiny muted">🔒 Encrypted</span>
+      </div>
+    </aside>
+
+    <div class="main-wrap">
+      <header class="topbar">
+        <button class="icon-btn menu-btn" id="menu-btn" aria-label="Menu">☰</button>
+        <h1 id="view-title">Dashboard</h1>
+        <div class="top-actions">
+          <button class="btn primary" data-action="new-video">＋ Video</button>
+          <button class="icon-btn" data-action="toggle-theme" title="Theme" aria-label="Toggle theme">🌓</button>
+          <button class="icon-btn" data-action="lock" title="Lock" aria-label="Lock">🔒</button>
+        </div>
+      </header>
+      <main id="main"></main>
+    </div>
+  </div>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true">
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="js/vault.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/agent.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
